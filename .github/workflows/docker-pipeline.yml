@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Print your Register Number
         run: echo "Hello World-22IT024!"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Docker Build
+        run: docker build -t nagajothi70/ml-model-22it024 .
+      - name: Docker Images
+        run: docker images
