@@ -1,0 +1,8 @@
+name: docker-pipeline-jothi
+on: push
+jobs:
+  docker-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print your Register Number
+        run: echo "Hello World-22IT024!"
