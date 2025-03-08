@@ -1,8 +1,8 @@
-name: hello-world
+name: hello-world-jothi
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print your name
-        run: echo "Hello World! - Nagajothi TR "
+      - name: Print your name
+        run: echo "Hello World-jothi!"
